@@ -15,9 +15,8 @@ import { TransactionsProvider } from '../contexts/TransactionsProvider';
 import { SolanaPayLogo } from '../images/SolanaPayLogo';
 import { SOLIcon } from '../images/SOLIcon';
 import css from './App.module.css';
-import { MAINNET_ENDPOINT, MAINNET_USDC_MINT } from '../../utils/constants';
+import { MAINNET_ENDPOINT, MAINNET_USDC_MINT, MAINNET_BONK_MINT } from '../../utils/constants';
 import { USDCIcon } from '../images/USDCIcon';
-import { MAINNET_ENDPOINT, MAINNET_BONK_MINT } from '../../utils/constants';
 import { BONKIcon } from '../images/BONKIcon';
 
 interface AppProps extends NextAppProps {
